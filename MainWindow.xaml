@@ -33,10 +33,14 @@ ResourceKey=PhoneNumbersTemplate}"/>
         <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="44,256,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="48" Width="60" Click="btnExit_Click"/>
         <Button x:Name="btnNext" Content="Next" HorizontalAlignment="Left" Margin="407,0,0,0" VerticalAlignment="Center" Width="80" Height="20" Click="btnNext_Click"/>
         <Button x:Name="btnPrevious" Content="Previous" HorizontalAlignment="Left" Margin="246,0,0,0" VerticalAlignment="Center" Width="80" Height="20" Click="btnPrevious_Click"/>
-        <Label x:Name="lblPhoneNum" Content="Phone Number:" HorizontalAlignment="Left" Margin="239,270,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblSubscriber" Content="Subscriber:" HorizontalAlignment="Left" Margin="239,308,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.404,0.522"/>
-        <TextBox x:Name="txtPhoneNumber" HorizontalAlignment="Left" Margin="344,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" IsEnabled="False" Height="20" Text="{Binding Path=Phonenum}"/>
-        <TextBox x:Name="txtSubscriber" HorizontalAlignment="Left" Margin="344,314,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" IsEnabled="False" Height="20" Text="{Binding Path=Subscriber}"/>
+        <Label x:Name="lblPhoneNum" Content="Phone Number:" HorizontalAlignment="Left" Margin="239,238,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblSubscriber" Content="Subscriber:" HorizontalAlignment="Left" Margin="239,267,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.404,0.522"/>
+        <TextBox x:Name="txtPhoneNumber" HorizontalAlignment="Left" Margin="343,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" IsEnabled="False" Height="20" Text="{Binding Path=Phonenum}"/>
+        <TextBox x:Name="txtSubscriber" HorizontalAlignment="Left" Margin="343,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" IsEnabled="False" Height="20" Text="{Binding Path=Subscriber}"/>
+        <Label x:Name="lblContractValue" Content="Contract value:" HorizontalAlignment="Left" Margin="237,298,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtContractValue" HorizontalAlignment="Left" Margin="343,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" IsEnabled="False" Height="20"/>
+        <Label x:Name="lblContractDate" Content="Contract date:" HorizontalAlignment="Left" Margin="237,329,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtContractDate" HorizontalAlignment="Left" Margin="343,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" IsEnabled="False" Height="20"/>
 
     </Grid>
 </Window>
